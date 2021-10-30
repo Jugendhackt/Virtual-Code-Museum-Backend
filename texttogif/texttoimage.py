@@ -50,7 +50,7 @@ def textfile_to_image(textfile_path):
 
     # make a sufficiently sized background image based on the combination of font and lines
     font_points_to_pixels = lambda pt: round(pt * 96.0 / 72)
-    margin_pixels = 10
+    margin_pixels = 30
 
     # height of the background image
     #tallest_line = max(lines, key=lambda line: PIL.font.getsize(line)[PIL_HEIGHT_INDEX], default=10)
@@ -66,12 +66,12 @@ def textfile_to_image(textfile_path):
     image_width = int(ceil(max_line_width + (2 * margin_pixels)))
 
     # draw the background
-    background_color = 255  # white
+    background_color = 0  # white
     image = Image.new(PIL_GRAYSCALE, (image_width, image_height), color=background_color)
     draw = ImageDraw.Draw(image)
 
     # draw each line of text
-    font_color = 0  # black
+    font_color = 255  # black
     horizontal_position = margin_pixels
     for i, line in enumerate(lines):
         vertical_position = int(round(margin_pixels + (i * realistic_line_height)))
