@@ -1,0 +1,9 @@
+body {font-family: monospace; color: lime; background: black;padding-left: 0px;padding-right: 0px; text-align: center; margin: 0px; align-items: center;}
+.btngo {border-width: 0px; border-color: none; border-radius: 10px; height: 50px; width: 20%; background: lime; font-size: 150%; font-family: monospace;}
+.previewphoto {color: white; text-decoration: none; font-size: 150%; text-transform: uppercase; text-shadow: 0px 0px 20spx lime; padding-top: 10px;}
+.footer {width: 100%; background: lime; color: black; padding-top: 20px; padding-bottom: 20px;}
+.flexchild {flex: 1;}
+a {color: darkblue; text-decoration: none;}
+input#submit_code {color: lime; font-family: monospace;}
+.btnlinebig {border-width: 2px; border-style: solid; border-color: lime; border-radius: 10px; height: 50px; width: 20%; background: none; font-size: 150%; font-family: monospace; color: white; text-overflow: clip;}
+.btnlinebig:hover {background-color: rgba(0, 255, 0, 0.25);}
