@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName memberzone/next
+AuthUserFile .htpasswd
+Require valid-user

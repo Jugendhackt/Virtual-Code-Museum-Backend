@@ -7,3 +7,4 @@ a {color: darkblue; text-decoration: none;}
 input#submit_code {color: lime; font-family: monospace;}
 .btnlinebig {border-width: 2px; border-style: solid; border-color: lime; border-radius: 10px; height: 50px; width: 20%; background: none; font-size: 150%; font-family: monospace; color: white; text-overflow: clip;}
 .btnlinebig:hover {background-color: rgba(0, 255, 0, 0.25);}
+.hackerbtn {background: lime; color: black; border-width: 0px; border-radius: 10px;}
